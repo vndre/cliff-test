@@ -20,6 +20,8 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
+    empty-jekyll-theme (0.1.1)
+      jekyll (~> 3.8)
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
@@ -256,6 +258,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  empty-jekyll-theme
   github-pages (~> 228)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
