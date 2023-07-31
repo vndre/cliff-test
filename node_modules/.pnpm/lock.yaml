@@ -1,0 +1,68 @@
+lockfileVersion: '6.0'
+
+devDependencies:
+  git-cliff:
+    specifier: ^1.2.0
+    version: 1.2.0
+
+packages:
+
+  /git-cliff-darwin-arm64@1.2.0:
+    resolution: {integrity: sha512-zWkTEnB1SenJULqi4QzQzs8Sp2yvGkvglEH75Gia+cBe32jXar6zDw9gI3D3ikcuboyCrFNpERT+pbNIJlOT6w==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff-darwin-x64@1.2.0:
+    resolution: {integrity: sha512-ye4AfgaDPhNGnDx2r09Wvaic2nJRVE4PZltupABjVNWoBEIiTjEA0kw32WjgdZjVkJipAwkqh27HnKnR2lVvyQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff-linux-arm64@1.2.0:
+    resolution: {integrity: sha512-C6A/UAq6M1UFso4r9gfG5FF1wAyj5ysPX8X6KFVS2UgU+zJJqNBQKD5kYxDDHRsCq/bMV8oVHyYJlt2wVKAo+A==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff-linux-x64@1.2.0:
+    resolution: {integrity: sha512-nT9QPYO1XigDrNJie4EMonBvWtZaZmOQsiYd10zt9b15uYfbadymkQJXZy2w1OaqVsl82zRDzjpdQ2x6qFbK8g==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff-windows-arm64@1.2.0:
+    resolution: {integrity: sha512-peEdb0MRhLb5bcpLGdDcITAk42Tp0oWvPApAr/PVZbcuz441VppIrEoXsJeZYqKM6cuD/x0N2uC96sRrrV5Gig==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff-windows-x64@1.2.0:
+    resolution: {integrity: sha512-PZ3QwZOGEaRQ02c8F4khYRQC2VHAJDmYn9ZVEdSBYArPJr8xFe3QLib/T33kz4rs7P1050pr1Ze9dnOAbdMaJQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /git-cliff@1.2.0:
+    resolution: {integrity: sha512-nuruES3361gZPi0p9C+vNRW8o/e7W6Y2iuriiQnukWhy9zjlZ4Qx2uCLV8iTTKfms9EoG54x6FCP4cnSAXL9Kg==}
+    hasBin: true
+    optionalDependencies:
+      git-cliff-darwin-arm64: 1.2.0
+      git-cliff-darwin-x64: 1.2.0
+      git-cliff-linux-arm64: 1.2.0
+      git-cliff-linux-x64: 1.2.0
+      git-cliff-windows-arm64: 1.2.0
+      git-cliff-windows-x64: 1.2.0
+    dev: true
